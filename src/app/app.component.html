@@ -1,0 +1,5 @@
+<h3>Parent to child Component Interaction in Angular</h3>
+
+<p>The output of this example is same as we have done in the <a href="https://stackblitz.com/edit/for-loop-in-angular">For Loop in Angular</a> example. But in this case, we have created a card component and we are adding this in app.component as a child component and repeating it with *ngFor loop and also passing data from app.component to card-component.</p>
+
+<app-card *ngFor="let fruit of fruitList" [fruit]="fruit"></app-card>
